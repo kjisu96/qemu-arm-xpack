@@ -113,7 +113,7 @@ function build_qemu_legacy()
 
   if [ "${IS_DEVELOP}" == "y" ] # -a "${IS_DEBUG}" == "y" ]
   then
-    QEMU_LEGACY_GIT_BRANCH=${QEMU_LEGACY_GIT_BRANCH:-"xpack-legacy-develop-jskwon"}
+    QEMU_LEGACY_GIT_BRANCH=${QEMU_LEGACY_GIT_BRANCH:-"xpack-legacy-qemu-jskwon"}
   else
     QEMU_LEGACY_GIT_BRANCH=${QEMU_LEGACY_GIT_BRANCH:-"xpack-legacy"}
   fi
