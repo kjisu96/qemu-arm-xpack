@@ -157,7 +157,7 @@ function build_versions()
       fi
       QEMU_GIT_COMMIT="v${QEMU_VERSION}-xpack"
 
-      build_qemu "${QEMU_VERSION}" "arm"
+      #build_qemu "${QEMU_VERSION}" "arm"
 
       # Build legacy qemu-system-gnuarmeclipse is not available
       # on Apple Silicon.
