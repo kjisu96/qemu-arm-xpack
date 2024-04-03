@@ -136,7 +136,8 @@ function build_qemu_legacy()
       local patch_file="${BUILD_GIT_PATH}/patches/${QEMU_LEGACY_GIT_PATCH}"
       if [ -f "${patch_file}" ]
       then
-        run_verbose git apply "${patch_file}"
+        #run_verbose git apply "${patch_file}"
+        run_verbose git apply ""
       fi
 
       if [ "${TARGET_PLATFORM}" == "win32" ]
